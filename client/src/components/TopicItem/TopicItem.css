@@ -1,0 +1,41 @@
+.item__container {
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 0 5px gray;
+  display: flex;
+  flex-direction: row;
+}
+
+.votes,
+.delete {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topic__title {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.delete {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+}
+button:hover {
+  background-color: #e2e2e2;
+}
+button:active {
+  background-color: gray;
+}
